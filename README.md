@@ -15,18 +15,12 @@ This guide explains how to capture the live HLS URL from UN WebTV and run the tr
 
 ```bash
 pip install -r requirements.txt
-python -m playwright install
 ```
 
 ### Optional: Google Docs Integration
 
-To enable live transcription to Google Docs:
 
-```bash
-pip install -r requirements_google_docs.txt
-```
-
-Then follow the [Google Docs Setup Guide](GOOGLE_DOCS_SETUP.md) to configure your credentials.
+Follow the [Google Docs Setup Guide](GOOGLE_DOCS_SETUP.md) to configure your credentials.
 
 ---
 
